@@ -27,6 +27,7 @@
     "High Contrast"
   ],
   "author": "Peter Hunnisett <peter@softwarebalm.com> (https://softwarebalm.com)",
+  "private": false,
   "license": "MIT",
   "homepage": "https://github.com/phBalance/colour-contrast#readme",
   "devDependencies": {
