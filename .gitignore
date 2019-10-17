@@ -1,0 +1,7 @@
+# 3rd party
+node_modules
+
+# Build artifacts
+colour.js
+colour.d.ts
+colour.js.map

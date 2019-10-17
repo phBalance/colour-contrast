@@ -1,0 +1,44 @@
+{
+  "name": "@phbalance/contrast-colour",
+  "version": "0.0.1",
+  "description": "Small library for calculating contrasting colours.",
+  "scripts": {
+    "build": "npm run clean && webpack -p --mode production",
+    "build:dev": "npm run clean && webpack -p --mode development",
+    "clean": "rimraf dist/ colour.js colour.js.map colour.d.ts",
+    "lint": "tslint -p tsconfig.json",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "echo \"No tests specified\"",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phBalance/colour-contrast.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phBalance/colour-contrast/issues"
+  },
+  "keywords": [
+    "Colour",
+    "Color",
+    "Contrast",
+    "High Contrast"
+  ],
+  "author": "Peter Hunnisett <peter@softwarebalm.com> (https://softwarebalm.com)",
+  "license": "MIT",
+  "homepage": "https://github.com/phBalance/colour-contrast#readme",
+  "devDependencies": {
+    "@types/color": "^3.0.0",
+    "np": "^5.0.3",
+    "rimraf": "^3.0.0",
+    "ts-loader": "^5.4.5",
+    "tslint": "^5.19.0",
+    "typescript": "^3.4.5",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "color": "^3.1.2"
+  }
+}
