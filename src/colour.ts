@@ -17,5 +17,5 @@ export function chooseHighestContrastColour(foreRgb: string, foreAlpha: number =
 
 	const luminosity = blendColour.luminosity();
 
-return luminosity > 0.179 ? BLACK_RGB : WHITE_RGB;
+	return luminosity > 0.179 ? BLACK_RGB : WHITE_RGB;
 }
