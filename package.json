@@ -2,6 +2,7 @@
   "name": "@phbalance/contrast-colour",
   "version": "0.0.1",
   "description": "Small library for calculating contrasting colours.",
+  "main": "colour.js",
   "scripts": {
     "build": "npm run clean && webpack -p --mode production",
     "build:dev": "npm run clean && webpack -p --mode development",
