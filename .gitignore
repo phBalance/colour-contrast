@@ -2,6 +2,8 @@
 node_modules
 
 # Build artifacts
-colour.js
 colour.d.ts
+colour.js
+colour.es6.js
 colour.js.map
+colour.es6.js.map

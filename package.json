@@ -3,9 +3,11 @@
   "version": "0.0.2",
   "description": "Small library for calculating contrasting colours.",
   "main": "colour.js",
+  "module": "colour.es6.js",
+  "sideEffects": false,
   "scripts": {
-    "build": "npm run clean && webpack -p --mode production",
-    "build:dev": "npm run clean && webpack -p --mode development",
+    "build": "rollup -c --environment BUILD:production",
+    "build:dev": "rollup -c --environment BUILD:development",
     "clean": "rimraf dist/ colour.js colour.js.map colour.d.ts",
     "lint": "tslint -p tsconfig.json",
     "lint:fix": "npm run lint -- --fix",
@@ -32,16 +34,19 @@
   "homepage": "https://github.com/phBalance/colour-contrast#readme",
   "devDependencies": {
     "@types/color": "^3.0.0",
+    "color": "^3.1.2",
     "np": "^5.0.3",
     "peer-deps-externals-webpack-plugin": "^1.0.4",
     "rimraf": "^3.0.0",
+    "rollup": "^1.25.0",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-terser": "^5.1.2",
+    "rollup-plugin-typescript2": "^0.24.3",
     "ts-loader": "^5.4.5",
     "tslint": "^5.19.0",
-    "typescript": "^3.4.5",
-    "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.7"
+    "typescript": "^3.4.5"
   },
   "peerDependencies": {
-    "color": "^1.0.0"
+    "color": ">=1.0.0"
   }
 }

@@ -1,4 +1,4 @@
-import * as Colour from "color";
+import Colour from "color";
 
 const WHITE_RGB = "#ffffff";
 const BLACK_RGB = "#000000";
