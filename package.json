@@ -1,6 +1,6 @@
 {
   "name": "@phbalance/contrast-colour",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Small library for calculating contrasting colours.",
   "main": "colour.js",
   "module": "colour.es6.js",
