@@ -1,12 +1,13 @@
 {
 	"compilerOptions": {
 		"target": "es5",
-		"lib": ["dom", "es2015", "es5"],
+		"lib": ["es6"],
+        "esModuleInterop": true,
 		"experimentalDecorators": true,
 		"sourceMap": true,
 		"declaration": true,
 		"declarationDir": ".",
-		"strict": true
+        "strict": true
 	},
 	"include": [
 		"src/**/*"
