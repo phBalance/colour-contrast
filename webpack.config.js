@@ -1,4 +1,5 @@
 const path = require("path");
+const PeerDepsExternalsPlugin = require("peer-deps-externals-webpack-plugin");
 
 module.exports = {
   entry: {
@@ -19,7 +20,9 @@ module.exports = {
       { test: /\.tsx?$/, loader: "ts-loader" }
     ]
   },
-  plugins: [],
+  plugins: [
+    new PeerDepsExternalsPlugin()
+  ],
   devServer: {
     open: true
   },

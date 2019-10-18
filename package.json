@@ -33,6 +33,7 @@
   "devDependencies": {
     "@types/color": "^3.0.0",
     "np": "^5.0.3",
+    "peer-deps-externals-webpack-plugin": "^1.0.4",
     "rimraf": "^3.0.0",
     "ts-loader": "^5.4.5",
     "tslint": "^5.19.0",
@@ -40,7 +41,7 @@
     "webpack": "^4.39.3",
     "webpack-cli": "^3.3.7"
   },
-  "dependencies": {
-    "color": "^3.1.2"
+  "peerDependencies": {
+    "color": "^1.0.0"
   }
 }
