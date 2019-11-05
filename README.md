@@ -1,5 +1,5 @@
 # Finding the highest contrast colour
-Utility for determining the highest constrasting colour. Build on [color](https://github.com/Qix-/color). It is implemented in [TypeScript](https://www.typescriptlang.org/).
+Utility for determining the highest constrasting colour. Built on [color](https://github.com/Qix-/color). It is implemented in [TypeScript](https://www.typescriptlang.org/).
 
 ## Getting Started
 
