@@ -7,7 +7,7 @@ Utility for determining the highest constrasting colour. Built on [color](https:
 ### Installation
 
 ```
-npm install --save @phbalance/constrast-colour # Note the non American spelling
+npm install --save @phbalance/contrast-colour # Note the non American spelling
 ```
 
 ### Use
