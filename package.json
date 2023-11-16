@@ -40,7 +40,7 @@
     "eslint": "^7.28.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
-    "np": "^7.5.0",
+    "np": "^8.0.4",
     "prettier": "^2.3.1",
     "rimraf": "^3.0.2",
     "rollup": "^2.51.2",
